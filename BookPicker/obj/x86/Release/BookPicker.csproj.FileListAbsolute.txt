@@ -1,0 +1,13 @@
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\bin\Release\BookPicker.exe.manifest
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\bin\Release\BookPicker.application
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\bin\Release\BookPicker.exe
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\bin\Release\BookPicker.pdb
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Release\BookPicker.Form1.resources
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Release\BookPicker.Properties.Resources.resources
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Release\BookPicker.exe.manifest
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Release\BookPicker.application
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Release\BookPicker.exe
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Release\BookPicker.pdb

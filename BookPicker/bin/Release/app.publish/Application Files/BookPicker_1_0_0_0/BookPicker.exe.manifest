@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="BookPicker.exe" version="1.0.0.0" publicKeyToken="6f2a1a3665438562" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BookPicker" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="BookPicker.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BookPicker.exe" size="8192">
+      <assemblyIdentity name="BookPicker" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>/TkytMtdfHgI8+XGkezEqS0FFdk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Tarik-PC\Tarik" issuerKeyHash="ab15a1d0b9fd05672207a7135095ed6885b77d98" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>oS37MK3YaTEi+6g3gjyc5OqdH44=</DigestValue></Reference></SignedInfo><SignatureValue>MUcrJBBBhFcPv/tts7Qu77RnEYRW57ZbOEDaMhwiPBmrSQy6YXO7FwogqZLepA7DraYFYdHT4mIcJex8s7B1fNRPXwxMH3/8lbARAgSaeIdQAC6TvGm2l+bGIEIFeM6kTVCC7+s7gedqMbCccdovX3sdaHm8oyMPAzx9HGOtjrw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>28UxNLqx2eyDJPskrmU++/OWEdWO9QIVgTA9qD8jvcsNMleTdAFVZzOMF2HHCPwWlXfD/NDMrJ1gXicqjWFIlWnXqa+2y5UJcMw+wYbBobSsM//RkOeNzLvRU1gPmEllk8XUmVMP5SQlHZFl4V5/rEAdD3VBDibfZfYGh5Z2Ti0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8e1f9deae49c3c8237a8fb223169d8ad30fb2da1" Description="" Url=""><as:assemblyIdentity name="BookPicker.exe" version="1.0.0.0" publicKeyToken="6f2a1a3665438562" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Tarik-PC\Tarik</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>lqCTP+NQQcvKn0+1Uyj3niv59uQ=</DigestValue></Reference></SignedInfo><SignatureValue>KEliNbixIOSoz0HBZS0miAeY4iLO6+lNJngD+gztbnyJ/H8Bj2XdtjpuddmwSY8lCO12tP6vO7HqRE4XbMjc9vF3KCYPXpWWZcLwDllO1XtfGwwgD0iIWtfnn0hKo47K4lsDKfU4PT5tOgsvo7CkrmmZE+A3edkX1mt+S6hqcIs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>28UxNLqx2eyDJPskrmU++/OWEdWO9QIVgTA9qD8jvcsNMleTdAFVZzOMF2HHCPwWlXfD/NDMrJ1gXicqjWFIlWnXqa+2y5UJcMw+wYbBobSsM//RkOeNzLvRU1gPmEllk8XUmVMP5SQlHZFl4V5/rEAdD3VBDibfZfYGh5Z2Ti0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQLNgcL82AY5dGTWauQ91zojANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwAVABhAHIAaQBrAC0AUABDAFwAVABhAHIAaQBrMB4XDTEzMDIwMTE1NDUyOFoXDTE0MDIwMTIxNDUyOFowJzElMCMGA1UEAx4cAFQAYQByAGkAawAtAFAAQwBcAFQAYQByAGkAazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA28UxNLqx2eyDJPskrmU++/OWEdWO9QIVgTA9qD8jvcsNMleTdAFVZzOMF2HHCPwWlXfD/NDMrJ1gXicqjWFIlWnXqa+2y5UJcMw+wYbBobSsM//RkOeNzLvRU1gPmEllk8XUmVMP5SQlHZFl4V5/rEAdD3VBDibfZfYGh5Z2Ti0CAwEAATANBgkqhkiG9w0BAQUFAAOBgQBD7B2h1sJJaQ0NHDX9Ads1sQKDXsLqO7l1PxnMpzIYhn4wBPwPwzMY1yumh1HxImdtp2cG7ryShXo3WeKYINc02CDINAjUyqL2PgqRBTgYU7gzcA0n06HUvgRpcaoI2UZAHYQNzGH31U21cNcSFJihH6Zr0tIBfLnmW1s7pN3Azw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,13 @@
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Debug\BookPicker.Form1.resources
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Debug\BookPicker.Properties.Resources.resources
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\bin\Debug\BookPicker.exe
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\bin\Debug\BookPicker.pdb
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Debug\BookPicker.exe
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Debug\BookPicker.pdb
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\bin\Debug\BookPicker.exe.manifest
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\bin\Debug\BookPicker.application
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Debug\BookPicker.exe.manifest
+C:\Users\Tarik\documents\visual studio 2010\Projects\BookPicker\BookPicker\obj\x86\Debug\BookPicker.application
