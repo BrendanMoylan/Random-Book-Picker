@@ -43,6 +43,7 @@ namespace BookPicker
             textBox2.Text = (string)bookList[randomNum];
             bookToRemove = (string)bookList[randomNum];
             bookList.Remove(bookToRemove);
+            writeFile();
         }
 
         private void button1_Click(object sender, EventArgs e)
