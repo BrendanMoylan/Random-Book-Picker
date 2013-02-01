@@ -43,18 +43,16 @@ namespace BookPicker
             textBox2.Text = (string)bookList[randomNum];
             bookToRemove = (string)bookList[randomNum];
             bookList.Remove(bookToRemove);
-            sw = new StreamWriter("books.txt");
-            for (int i = 0; i < bookList.Count; i++)
-            {
-                sw.WriteLine(bookList[i]);
-            }
-
-            sw.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             bookList.Add(textBox1.Text);
+            writeFile();
+        }
+
+        public void writeFile()
+        {
             sw = new StreamWriter("books.txt");
             for (int i = 0; i < bookList.Count; i++)
             {
